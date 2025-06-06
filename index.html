@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ramon's Creative Space</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="hero">
+    <div class="overlay">
+      <h1>Welcome to Ramon's World</h1>
+      <p>Creative • Resilient • Thoughtful</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav>
+      <button onclick="showTab('about')">About</button>
+      <button onclick="showTab('gallery')">Gallery</button>
+      <button onclick="showTab('contact')">Contact</button>
+    </nav>
+
+    <main>
+      <section id="about" class="tab active">
+        <h2>About Me</h2>
+        <p>I'm Ramon, and I love exploring creative ideas, overcoming challenges, and thinking deeply about the world around me. I enjoy blending art, code, and storytelling to make meaningful things.</p>
+      </section>
+
+      <section id="gallery" class="tab">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <img src="https://source.unsplash.com/300x200/?nature,water" alt="Nature 1">
+          <img src="https://source.unsplash.com/300x200/?technology,code" alt="Tech">
+          <img src="https://source.unsplash.com/300x200/?city,night" alt="City">
+        </div>
+      </section>
+
+      <section id="contact" class="tab">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:ramon@example.com">ramon@example.com</a></p>
+        <p>Follow me on: 
+          <a href="#" target="_blank">Instagram</a> | 
+          <a href="#" target="_blank">GitHub</a>
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Ramon Guisar. Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
